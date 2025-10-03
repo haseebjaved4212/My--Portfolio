@@ -35,7 +35,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
    ```
 2. Navigate to the project directory:
    ```bash
-   cd New-Portfolio
+   cd My--Portfolio
    ```
 3. Open `index.html` in your preferred web browser.
 
