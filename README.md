@@ -12,7 +12,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 - **Contact Form**: Easy way for visitors to get in touch
 - **Downloadable CV**: Direct download link for my resume
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Frontend**:
   - HTML5, CSS3, JavaScript (ES6+)
@@ -20,7 +20,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
   - Font Awesome for icons
   - Google Fonts for typography
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 - **Name**: Haseeb Javed
 - **Email**: [contactimhaseeb@gmail.com]
-- **Portfolio**: []
+- **Portfolio**: [https://haseebjaved4212.github.io/My--Portfolio/]
 - **LinkedIn**: [https://www.linkedin.com/in/haseeb-javed-0332b3341]
 
 ## 🙏 Acknowledgments
