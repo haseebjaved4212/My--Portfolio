@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haseeb Javed - Front End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">Haseeb</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Haseeb Javed</h1>
+            <h2>Front End Developer</h2>
+            <p>Crafting beautiful, responsive web experiences with modern technologies</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="MyCV.pdf" class="btn btn-download" download><i class="fas fa-download"></i> Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate web developer who loves turning ideas into clean, functional, and user-friendly digital experiences. My core strength lies in web development, where I enjoy working with modern tools and crafting projects that not only work well but also feel smooth to use.</p>
+                <br>
+                <p>Alongside coding, I've started exploring the fascinating world of Artificial Intelligence — from Generative AI to the basics of Narrow AI, Large Language Models, and even a touch of ML/DL concepts. While I'm still at the beginning of this journey, it excites me to think about how AI can enhance the way we build applications.</p>
+                <br>
+                <p>Currently, I'm diving deeper into backend development to strengthen my full-stack skills and create more complete, powerful solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-marquee-container">
+            <div class="skills-marquee">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <span>TypeScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <span>React.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <span>Next.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <span>GSAP</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cube"></i>
+                    <span>Three.js</span>
+                </div>
+                <!-- Duplicate for seamless loop -->
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <span>TypeScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <span>React.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <span>Next.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <span>GSAP</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cube"></i>
+                    <span>Three.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-headphones"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Audira Headphone Website</h3>
+                    <p>A modern and sleek headphone brand website featuring smooth animations and responsive design.</p>
+                    <div class="project-links">
+                        <a href="https://haseebjaved4212.github.io/Audira-Headphone-Brand-Website-/" target="_blank">See It In Action</a>
+                        <a href="https://github.com/haseebjaved4212/Audira-Headphone-Brand-Website-.git" target="_blank">Inspect Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-content">
+                    <h3>E-Commerce Store</h3>
+                    <p>A fully functional e-commerce platform with product listings, cart functionality, and smooth user experience.</p>
+                    <div class="project-links">
+                        <a href="https://haseebjaved4212.github.io/E-Commerce-Store/" target="_blank">See It In Action</a>
+                        <a href="https://github.com/haseebjaved4212/E-Commerce-Store.git" target="_blank">inspect Code </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="project-content">
+                    <h3>Dynamic Music Player</h3>
+                    <p>An interactive music player with dynamic visualizations and intuitive controls for an enhanced listening experience.</p>
+                    <div class="project-links">
+                        <a href="https://haseebjaved4212.github.io/Dynamic-Music-Player/" target="_blank">See It In Action </a>
+                        <a href="https://github.com/haseebjaved4212/Dynamic-Music-Player.git" target="_blank">Inspect  Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore-btn-container">
+        <a href="https://github.com/haseebjaved4212" target="_blank" class="explorebtn"> Explore More Projects</a>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:contactimhaseeb@gmail.com">contactimhaseeb@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <a href="tel:+923272119600">+92 327 2119600</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 1rem;">Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/haseebjaved4212" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/haseeb-javed-0332b3341" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/haseeb_javed4212" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1BU3pcCN8W/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/Haseebjaved4212" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/contactimhaseeb@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Haseeb Javed. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
